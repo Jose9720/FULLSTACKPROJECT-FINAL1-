@@ -1,0 +1,179 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+    * {
+      margin: 0;
+      padding: 30;
+      box-sizing: border-box;
+    }
+
+    form{
+      width: 25rem;
+      margin: auto;
+      color:whitesmoke;
+      backdrop-filter: blur(16px) saturate(180%);
+      -webkit-backdrop-filter: blur(16px) saturate(180%);
+      background-color: rgba(11, 15, 13, 0.582);
+      border-radius: 5px;
+      border: 1px solid rgba(255, 255, 255, 0.125);
+      padding: 10px 15px;
+  }
+
+    /*body {
+      background: #151515;
+      font-family: 'Montserrat', sans-serif;
+    }*/
+
+
+
+    /*---------------menu icon----------------*/
+
+    .container {
+      position: absolute;
+      left: 50%;
+      top: 60%;
+      bottom: 90%;
+      transform: translate(-50%, -50%);
+      width: 300px;
+      height: 400px;
+      box-shadow: 5px 5px 5px rgba(5, 5, 5, 0.8), -4px -4px 5px rgba(200, 200, 200, 0.1);
+      background-image: url("C:\Users\DELL\Desktop\FULLSTACKPROJECT\RestaurantManagement\src\assets\profile card 1.jpg");
+    }
+
+    
+
+    .menu-icon {
+      margin: 1em 1em 0 1em;
+    }
+
+    .menu {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      width: 2em;
+      height: 2em;
+    }
+
+    .menu-icon1 {
+      float: left;
+      color: rgba(206, 208, 225, 0.9);
+    }
+
+    .menu-icon2 {
+      float: right;
+      color: rgba(206, 208, 225, 0.9);
+    }
+
+    .menu-icon::after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+
+    .menu:hover {
+      box-shadow: inset 3px 3px 3px rgba(5, 5, 5, 0.8), inset -3px -3px 3px rgba(100, 100, 100, 0.2);
+    }
+
+    /*--------------profile img----------------*/
+
+    .img-box {
+      display: block;
+      width: 6em;
+      height: 6em;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      box-shadow: inset 2px 2px 2px #6a4ac3cc, inset -2px -2px 2px #d90d2fdc;
+    }
+
+    .img-box img {
+      width: 5em;
+      height: 5em;
+      border-radius: 50%;
+      box-shadow: 2px 2px 2px rgba(5, 5, 5, 0.8), -2px -2px 2px rgba(100, 100, 100, 0.2);
+    }
+    .name {
+      text-align: center;
+      letter-spacing: 0.2rem;
+      font-variant: small-caps;
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: rgba(206, 208, 225, 0.8);
+      margin: 0.5em 0 0.1em 0;
+    }
+   
+    .profession {
+      /*color: rgba(57, 59, 72, 0.9);
+      text-align: center;*/
+      text-align: center;
+      letter-spacing: 0.2rem;
+      font-variant: small-caps;
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: rgba(206, 208, 225, 0.8);
+      margin: 0.5em 0 0.1em 0;
+    }
+   
+    /*-----------social icons-------------*/
+   
+    .social-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 1em 0 0 0;
+    }
+    .social {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0.5em 0.6em;
+      border-radius: 50%;
+      color: #0c166e80;
+      box-shadow: 2px 2px 3px rgba(5, 5, 5, 0.8), -2px -2px 3px rgba(100, 100, 100, 0.1);
+      padding: 0.6em;
+      
+    }
+ 
+    .social:hover {
+      box-shadow: inset 2px 2px 3px rgba(5, 5, 5, 0.9), inset -2px -2px 3px rgba(100, 100, 100, 0.3);
+      transform: scale(1.1);
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+   
+    /*-----------button container------------*/
+   
+    .btn-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 1.7em;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.6em 1.2em;
+      text-align: center;
+      letter-spacing: 0.1rem;
+      color: rgba(206, 208, 225, 0.6);
+      font-variant: small-caps;
+      font-weight: 500;
+      box-shadow: 3px 3px 5px rgba(5, 5, 5, 0.8), -3px -3px 5px rgba(100, 100, 100, 0.1);
+    }
+    .btn2 {
+      margin-left: 1em;
+    }
+    .btn:hover {
+      box-shadow: inset 3px 3px 5px rgba(5, 5, 5, 0.8), inset -3px -3px 5px rgba(100, 100, 100, 0.1);
+    }
+    .btn1:hover {
+      color: deepskyblue;
+    }
+    .btn2:hover {
+      color: crimson;
+    }
+   
+    

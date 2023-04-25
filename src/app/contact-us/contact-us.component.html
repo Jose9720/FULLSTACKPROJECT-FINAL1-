@@ -1,0 +1,30 @@
+<div class="col-md-6 offset-md-3">
+    <h3> Contact-Us </h3>
+
+<form>
+    <input type="text" name="name" placeholder="What is your name?" class="name" required
+    [(ngModel)] = "name">
+    <input type="email" name="emailaddress" placeholder="What is your email?" class="email" required
+    [(ngModel)] = "email">
+<textarea rows="4" cols="50" name="message" placeholder="Please enter your message" class="message" required 
+[(ngModel)] = "message"></textarea>
+<!--<input name="submit" class="btn" type="submit" value="Send" />-->
+
+
+
+
+<!--<button  class = "btn btn-success" type ="submit"><a href="home-page" >Send</a></button>--> 
+
+<div class="btns">
+    <button type="submit" routerLink="login-page"(click)="contact()">Send</button>
+   
+
+<!--<button  class = "btn btn-success" type ="submit"><a href="login-page" >Register</a></button>-->
+
+</div>
+
+
+
+
+</form>
+</div>

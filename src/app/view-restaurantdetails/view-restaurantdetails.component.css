@@ -1,0 +1,19 @@
+h3{
+    text-align: center;
+    font-size: 30px;
+
+}
+div{
+  margin: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+   border-image-width: auto;
+  border-radius: 50px;
+  font-size: 20px;
+  text-align: center;
+  background: linear-gradient();
+  background-image: url("C:\Users\DELL\Desktop\FULLSTACKPROJECT\RestaurantManagement\src\assets\profile card 1.jpg");
+}
+
+
+

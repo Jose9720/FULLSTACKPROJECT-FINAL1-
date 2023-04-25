@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url("C:\Users\DELL\Desktop\FULLSTACKPROJECT\RestaurantManagement\src\assets\cafe-3537801_1280.jpg");
+    color: rgb(242, 245, 255);
+    
+     
+}
+
+h1{
+    color:rgb(204, 255, 204);
+    text-shadow: 2px 2px;
+}
+
+thead{
+    color:rgb(71, 99, 255);
+}

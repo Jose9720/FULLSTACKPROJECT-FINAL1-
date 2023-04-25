@@ -1,0 +1,85 @@
+<!--<form action="/action_page.php">
+  <h2>Register Form</h2>
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="Username" name="usrnm">
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input class="input-field" type="text" placeholder="Email" name="email">
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input class="input-field" type="password" placeholder="Password" name="psw">
+  </div>
+
+  <button type="submit" class="btn">Register</button>
+</form>-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register-page.component.css">
+
+    <title>Registration Form</title>
+  </head>
+
+<body>
+
+    <div class="container">
+        <h2>Registration</h2>
+        <form action="">
+            <p>Password didnot match !!!</p>
+            <label>Username</label>
+            <input type="text"  name="username" id="username" placeholder="username" required
+            [(ngModel)] = "username">
+            <label> Email ID</label>
+            <input type="email" name="email" id="email" placeholder="email" required 
+            [(ngModel)] = "email">
+            <label>Password</label>
+            <input type="password" name="pass" id="pass" placeholder="password" required
+             [(ngModel)] = "password">
+            <label>Conform Password</label>
+            <input type="password" name="confirmpassword" id="confirmpassword" placeholder=" confirm password" required
+            [(ngModel)] = "confirmpassword">
+            
+
+            <div class="btns">
+                <button type="submit" routerLink="login-page"(click)="register()">Register</button>
+               
+           
+           <!--<button  class = "btn btn-success" type ="submit"><a href="login-page" >Register</a></button>-->
+
+          </div>
+          
+        </form>
+        
+      </div>
+    </body>
+
+    </html>
+   
+    <!--<script>
+      // lets do some password validation
+      const pass = document.querySelector('#pass')
+      const confirm_pass = document.querySelector('#confirm-pass')
+      const msg = document.querySelector('p')
+      const btn = document.querySelector('button')
+      btn.addEventListener('click', (e) => {
+          if (pass.value != confirm_pass.value) {
+              e.preventDefault();
+              msg.style.display = "block"
+          }else{
+              alert('user registered sucessfully')
+          }
+
+      })
+  </script>-->
+
+    

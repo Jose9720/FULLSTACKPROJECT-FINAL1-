@@ -1,0 +1,56 @@
+h3{
+    text-align: center;
+}
+
+
+
+.container {
+  width: 25rem;
+  margin: auto;
+  size-adjust: 10%;
+  color:whitesmoke;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(11, 15, 13, 0.582);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 5px 5px;
+}
+
+input[type=text], input[type=radio]{
+    width: 100%;
+    margin: 2px 0;
+    border-radius: 5px;
+    padding: 10px 12px;
+    box-sizing: border-box;
+  }
+
+button {
+    background-color: #030804;
+    color: white;
+    padding: 5px 2px;
+    border-radius: 5px;
+    margin: 2px 0;
+    width: 100%;
+    font-size: 18px;
+  }
+
+button:hover {
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+
+
+/* Media queries for the responsiveness of the page */
+@media screen and (max-width: 100px) {
+    form{
+      width: 25rem;
+    }
+  }
+  
+  @media screen and (max-width: 100px) {
+    form{
+      width: 10rem;
+    }
+  }
